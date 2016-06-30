@@ -24,6 +24,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <Button x:Name="btnFabricante" Content="Janela Fabricante" HorizontalAlignment="Left" Margin="346,10,0,0" VerticalAlignment="Top" Width="184" Height="49" Click="btnFabricante_Click"/>
 
     </Grid>
 </Window>

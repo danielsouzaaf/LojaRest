@@ -79,5 +79,11 @@ namespace LojaAppRest
             await httpClient.DeleteAsync("/20131011110380/api/fabricante/" +
             txtId.Text);
         }
+
+        private void btnFabricante_Click(object sender, RoutedEventArgs e)
+        {
+            var abrir = new VeiculoWindow();
+            abrir.Show();
+        }
     }
 }
